@@ -1,0 +1,12 @@
+//  JSX   ->   simply HTML in a .js file where we can write js in '{ }'
+
+//  JSX       Vs        HTML
+className               class
+  htmlFor                for
+
+
+Each class or function component can return only ONE TAG
+
+In case of returning more than one element,  wrap all of them inside an empty tag like this in a JSX fragment   '<> ...elements... </>'  
+
+Babel compiles JSX down to React.createElement() calls
